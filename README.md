@@ -1,3 +1,5 @@
+Error with Publishing a Windows app, all ok until added a netstandard2.0 class library.
+
 Select the "Testing" configuration in Visual Studio. (Any CPU)
 
 You will notice that the solution can run successfully.
