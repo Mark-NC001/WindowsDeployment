@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewMauiApp.MainPage">
+
+	<VerticalStackLayout>
+		<HorizontalStackLayout>
+			<Button Text="Maui" Clicked="MauiClicked" />
+			<Label Text="Maui Class Library Output:" />
+			<Label x:Name="MauiLabel" />
+		</HorizontalStackLayout>
+		<HorizontalStackLayout>
+			<Button Text="Standard" Clicked="StandardClicked" />
+			<Label Text="Standard Class Library Output:" />
+			<Label x:Name="StandardLabel" />
+		</HorizontalStackLayout>
+	</VerticalStackLayout>
+</ContentPage>
